@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 107px 0 62px;
+}
+
+.navigation{
+    width: 653px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a{
+    font-size: clamp(15px, 2vw, 24px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+
+}
+
+
+
+/* rooms rates  */
+
+.rooms{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    margin-bottom: 68px;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    gap:60px;
+    justify-content: center;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    max-width: 630px;
+    width: 100%;
+}
+
+
+.card-text h1{
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+}
+
+
+.card-text h2{
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card-text a{
+    padding: 24px 53px;
+    background-color: #DFAA5B;
+    border-radius: 15px;
+    width: max-content;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+
+}
+
+
+.card2, .card4{
+    flex-direction: row-reverse;
+}
+
+.text2, .text4{
+    align-items: end;
+    text-align: end;
+}
+
+
+
+
+.text2 h2, .text4 h2{
+    text-align: end;
+}
+
+
+/* second section  */
+
+.second-section{
+    margin-top: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 104px;
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+}
+
+
+
+
+.title2 h1{
+    margin-bottom: 68px;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+
+}
+
+
+
+
+.footer{
+    background-color: #111111;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 51px 123px 160px 55px;
+}
+
+.footer-nav h1{
+    font-family: Ubuntu;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+.test{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.img img{
+    transform: rotate(100deg);
+     transition: .3s;
+}
+
+
+.img img:hover{
+    transform: rotate(0);
+    transition: .3s;
+}
+
